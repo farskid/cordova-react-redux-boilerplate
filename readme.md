@@ -10,7 +10,15 @@
 
 ## Usage
 * `npm install` to install packages
-* change __config.xml__ ot match the project informations
-* remove `http://localhost:3200/www/` from __index.html__ in production mode
+* change _config.xml_ ot match the project information
+* remove `http://localhost:3200/` from _index.html_ in production mode
 
 ## Scripts
+* _server_: runs a local server on __localhost:3200__
+* _build:webpack_: build webpack modules to production mode
+* _build:cordova_: builds a debug version of android application
+* _run:cordova_: runs cordova debug application on connected device or emulator
+* _build:cordova:release_: builds android application in release mode
+
+## License
+The project is MIT licensed.
