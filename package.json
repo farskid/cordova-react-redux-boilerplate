@@ -1,10 +1,10 @@
 {
   "name": "Cordova-react-redux-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Farzad YZ",
   "description": "A boilerplate including react, redux, react-router, webpack, cordova",
   "scripts": {
-    "server": "export NODE_ENV=development && webpack-dev-server --config webpack.config.js --inline --port 3200",
+    "server": "export NODE_ENV=development && webpack-dev-server --config webpack.config.js --inline --content-base www/ --port 3200",
     "build:webpack": "export NODE_ENV=production && webpack --config webpack.config.js -p",
     "build:cordova": "cordova build android",
     "run:cordova": "cordova run android",
