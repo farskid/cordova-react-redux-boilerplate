@@ -9,6 +9,7 @@
 * Cordova
 
 ## Usage
+>Note: If you are using a windows OS, edit `package.json` and replace `export` command with `SET`. _export_ is only vali din unix OS.
 * `npm install` to install packages
 * change _config.xml_ ot match the project information
 * remove `http://localhost:3200/` from _index.html_ in production mode
